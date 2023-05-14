@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CJB Pottery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header class="container group">
+      <h1 class="logo">
+        <a href="index.html">CJB Pottery</a>
+      </h1>
+      <h2 class="subline">
+        <a href="Artists.html">Korean women-owned and operated.</a>
+      </h2>
+        <nav class="primary-nav">
+            <a href="index.html" class="page">Home</a>
+            <a href="artists.html" class="page">Artists</a>
+            <a href="gallery.html" class="page">Gallery</a>
+            <a href="order.html" class="page">Custom Order</a>
+        </nav>
+    </header>
+    <br>
+    <h1 class="title">Custom Orders</h1>
+    <br>
+    <main>
+      <section class="order">
+      <h2>Order Form</h2>
+      <p>Fill out the form below to place a custom pottery order:</p>
+      </section>
+
+      <form action="process-order.php" method="post">
+        <label for="pottery-type">Type of Pottery:</label>
+        <input type="text" id="pottery-type" name="pottery-type" required>
+        
+        <label for="pottery-shape">Shape:</label>
+        <input type="text" id="pottery-shape" name="pottery-shape" required>
+        
+        <label for="pottery-size">Size:</label>
+        <input type="text" id="pottery-size" name="pottery-size" required>
+        
+        <label for="pottery-color">Color:</label>
+        <input type="text" id="pottery-color" name="pottery-color" required>
+        
+        <label for="pottery-details">Other Details:</label>
+        <textarea id="pottery-details" name="pottery-details"></textarea>
+        
+        <input type="submit" value="Submit Order">
+      </form>
+    </main>
+    
+    <footer>
+      <p>Web design by Suh Jeong Ah's daughter, Danbi. 🤍 </p>
+      <img src="Logo.png" alt="CJB Pottery logo" class="footerlogo">
+      <p>&copy; 2023 Custom Pottery Gallery. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
